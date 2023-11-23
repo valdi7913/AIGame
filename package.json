@@ -1,0 +1,23 @@
+{
+  "name": "aigame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "stylelint ./styles.scss ./styles/*.scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "stylelint": "^14.13.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^28.0.0",
+    "vite": "^4.5.0"
+  }
+}
