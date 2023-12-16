@@ -1,11 +1,16 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'consolas', sans-serif;
   background-color: var(--background-color);
+}
+
+.title {
+  text-align: center;
 }
 
 #canvas {
   background-color: white;  
+  border-radius: 1rem;
 }
 
 .wrapper {
@@ -45,10 +50,12 @@ a {
 }
 
 .button {
+  font-size: large;
   flex:1;
 	border: none;
   background-color: var(--background-color);
   color: #f4f4f4;
+  font-weight: 100px;
   padding: var(--spacing);
   border-radius: 5px;
   margin-bottom: 10px;
