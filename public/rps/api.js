@@ -1,4 +1,4 @@
-import { backendURL } from '../config';
+import { backendURL } from '../../config';
 export async function performGetRequest(url) {
   try {
     const REQUEST_URL = backendURL + url;
